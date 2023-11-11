@@ -9,6 +9,6 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = SwiggyJBBypass
 
 SwiggyJBBypass_FILES = Tweak.x
-SwiggyJBBypass_CFLAGS = -fobjc-arc -Wno-deprecated-declarations
+SwiggyJBBypass_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
